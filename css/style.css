@@ -1,20 +1,25 @@
 *{
     box-sizing: border-box;
-    margin: 10 0;
+    margin: 5px;
+}
 
+body{
+    background-color: #b0aeab;
 }
 
 header{
     height: 10vh;
     display: flex;
-   
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
     
 
 }
 
 .header-logo{
     height: 5vh;
+    
     
 }
 
@@ -27,7 +32,7 @@ header{
 
 .nav-item-link:link{
     text-decoration: none;
-    color: grey;
+    color: tomato;
     font-weight: bold;
 
 }
@@ -70,4 +75,43 @@ header{
     opacity: 0.6;
 }
 
+.container{
+    display: flex;
+    margin: 6rem auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+
+}
+
+.container img{
+    width: 15rem;
+    border-radius: 50%;  
+}
+
+article{
+    max-width: 17.5rem;
+    text-align: center;
+
+}
+
+article h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 2rem auto;
+
+}article p{
+    margin-bottom: 2rem;
+    color: black;
+}
+
+article a:link{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border: 0.1rem solid tomato;
+    border-radius: 3rem;
+    color: tomato;
+    text-decoration: none;
+
+}
 
