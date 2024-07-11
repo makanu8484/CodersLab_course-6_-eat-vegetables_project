@@ -4,3 +4,41 @@
     width: 1200px;
 
 }
+
+header{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.header-logo{
+    height: 8vh;
+}
+
+.nav{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-item-link:link{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+
+}
+
+.nav-item-link:hover{
+    color:black;
+
+}
+
+
+
+
+
+
