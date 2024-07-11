@@ -1,21 +1,21 @@
 *{
     box-sizing: border-box;
-    margin: 0 auto;
-    width: 1200px;
+    margin: 10 0;
 
 }
 
 header{
-    height: 20vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     
 
 }
 
 .header-logo{
-    height: 8vh;
+    height: 5vh;
+    
 }
 
 .nav{
