@@ -1,6 +1,44 @@
 *{
     box-sizing: border-box;
-    margin: 0 auto;
-    width: 1200px;
+    margin: 10 0;
 
 }
+
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.header-logo{
+    height: 5vh;
+    
+}
+
+.nav{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-item-link:link{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+
+}
+
+.nav-item-link:hover{
+    color:black;
+
+}
+
+
+
+
+
+
